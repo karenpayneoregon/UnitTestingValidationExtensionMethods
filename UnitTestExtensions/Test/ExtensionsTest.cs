@@ -4,6 +4,7 @@ using Library.LanguageExtensions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using UnitTestExtensions.BaseClasses;
 using ValidatorLibrary;
+#pragma warning disable 1574
 
 namespace UnitTestExtensions.Test
 {

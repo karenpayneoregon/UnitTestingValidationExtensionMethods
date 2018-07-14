@@ -1,1 +1,1 @@
-Source code for the following TechNet article.
+Source code for the following TechNet article https://social.technet.microsoft.com/wiki/contents/articles/51706.c-unit-testing-extension-methods-and-validation.aspx
