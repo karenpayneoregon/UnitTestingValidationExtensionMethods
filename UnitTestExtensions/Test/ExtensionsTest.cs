@@ -116,8 +116,8 @@ namespace UnitTestExtensions.Test
         {
             // arrange
             var today = DateTime.Now;
-            var startDate = new DateTime(today.Year, today.Month, 1);
-            var endDate = startDate.AddMonths(1).AddDays(-1).AddSeconds(-1);
+            var startDate = today.FirstDayOfTheMonth();
+            var endDate = today.LastDayOfTheMonth();
 
             // act
             var (FirstDayOfMonth, LastDayOfMonth) = DateTime.Now.FirstLastDayOfMonth();
@@ -130,6 +130,5 @@ namespace UnitTestExtensions.Test
                 "Expected end dates to match.");
 
         }
-
     }
 }
